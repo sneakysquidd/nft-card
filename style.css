@@ -1,3 +1,121 @@
 body {
     background-color: hsl(217, 54%, 11%);
 }
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    height: 575px;
+    margin: auto;
+    position: relative;
+    border-radius: 20px;
+}
+
+.nft-img {
+    border-radius: 15px;
+    position: relative;
+    top:0;
+    left:0;
+    width: 300px;
+    margin: 25px;
+    filter:hsl(178, 100%, 50%);
+}
+
+.view-img {
+    display: none;
+    position: absolute;
+    top: 150px;
+    left:150px;
+}
+
+.img-preview:hover  .view-img {
+    display:block;
+}
+
+.img-preview:hover .nft-img{
+    outline: 150px solid hsla(178, 100%, 50%,50%);
+    outline-offset: -175px;
+    position: relative;
+}
+
+hr {
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+span {
+    font-family: Outfit, sans-serif;
+    display:inline-block;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.description {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 18px;
+    
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    
+}
+
+.time-remaining {
+    color:hsl(215, 51%, 70%);
+    font-weight: 400;
+    float: right;
+    margin-right: 25px;
+}
+
+.creator-text {
+    color:hsl(215, 51%, 70%);
+    font-weight: 300;
+    display:inline;
+    margin-top: 12px;
+    position: absolute;
+}
+
+.creator-name {
+    color:hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.creator-name:hover {
+    color:hsl(178, 100%, 50%);
+}
+
+.attribution {
+    font-family: Outfit, sans-serif;
+    font-weight:300;
+    color:hsl(215, 51%, 70%);
+    text-decoration: none;
+}
+
+.attr {
+    color:hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+.attr:hover {
+    color:hsl(178, 100%, 50%);
+}
+
+.avatar {
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 35px;
+    outline:1px solid hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+.line-break {
+    margin-right: 25px;
+    margin-left: 25px;
+}
